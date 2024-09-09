@@ -8,6 +8,7 @@ This repository contains the Solidity implementation of the `Energy Trading Syst
 - [Features](#features)
 - [Contract Functions](#contract-functions)
 - [Events](#events)
+- [Deployment](#deployment)
 - [Getting Started](#getting-started)
 - [License](#license)
 
@@ -48,6 +49,12 @@ This approach promotes a more efficient and equitable energy market by enabling 
 - `SupplyBidSubmitted(address bidder, uint256 amount, uint256 price)`: Triggered when a seller submits a supply bid.
 - `MarketCleared(uint256 clearingPrice, uint256 clearingQuantity)`: Triggered when the market is cleared, indicating the clearing price and total traded quantity.
 - `TransactionPerformed(address buyer, address seller, uint256 amount, uint256 price)`: Triggered when a transaction is successfully executed between a buyer and a seller.
+
+## Deployment
+
+The smart contract has been deployed on the Ethereum Sepolia chain. You can view the verified contract code and address at the following link:
+
+- **Contract Address**: [0x54e0986bf4c9a3ae4061825c42734d6eccfe3f8b](https://sepolia.etherscan.io/address/0x54e0986bf4c9a3ae4061825c42734d6eccfe3f8b#code)
 
 ## Getting Started
 
